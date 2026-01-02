@@ -182,7 +182,7 @@ arr := [...]int{1: 10, 3: 30}  // 长度为4，结果：[0 10 0 30]
 
 类型 `[]T` 表示一个元素类型为 `T` 的切片。切片可以动态扩容，使用append
 
-切片通过两个下标来界定，一个下界和一个上界，选出一个左闭右开的区间，二者以冒号分隔：
+切片通过两个下标来界定，一个下界和一个上界，选出一个**左闭右开**的区间，二者以冒号分隔：
 
 ```go
 primes := [6]int{2, 3, 5, 7, 11, 13}
@@ -621,3 +621,96 @@ o 标准库中提供了 [`sync.Mutex`](https://go-zh.org/pkg/sync/#Mutex) 互斥
 - `Unlock`
 
 我们可以通过在代码前调用 `Lock` 方法，在代码后调用 `Unlock` 方法来保证一段代码的互斥执行。我们也可以用 `defer` 语句来保证互斥锁一定会被解锁。
+
+### 算法
+
+#### heap
+
+```go
+// 1. 定义一个类型（通常是切片）
+type IntHeap []int
+
+// 2. 实现 sort.Interface (Len, Less, Swap)
+func (h IntHeap) Len() int           { return len(h) }
+func (h IntHeap) Less(i, j int) bool { return h[i] < h[j] } // 最小堆；若是最大堆则用 >
+func (h IntHeap) Swap(i, j int)      { h[i], h[j] = h[j], h[i] }
+
+// 3. 实现 heap.Interface 要求的 Push
+func (h *IntHeap) Push(x interface{}) {
+	// Push 使用指针接收者，因为要修改切片的长度
+	*h = append(*h, x.(int))
+}
+
+// 4. 实现 heap.Interface 要求的 Pop
+func (h *IntHeap) Pop() interface{} {
+	old := *h
+	n := len(old)
+	x := old[n-1]     // 取出最后一个元素
+	*h = old[0 : n-1] // 缩减切片
+	return x
+}
+```
+
+```go
+func main() {
+	h := &IntHeap{2, 1, 5}
+    
+	// 1. 初始化堆，先初始化
+	heap.Init(h)
+    
+	// 2. 使用heap包内的Push，传入指针
+	heap.Push(h, 3)
+    
+	// 3. 获取并弹出堆顶元素（最小值）
+	for h.Len() > 0 {
+		fmt.Printf("%d ", heap.Pop(h)) // 输出: 1 2 3 5
+	}
+}
+```
+
+#### 快排模板
+
+```go
+func QuickSort(nums []int, left, right int) {
+    if left >= right {
+        return
+    }
+    
+    // 使用这个双指针 partition
+    p := Partition(nums, left, right)
+    
+    // 递归两边
+    QuickSort(nums, left, p-1)
+    QuickSort(nums, p+1, right)
+}
+
+func Partition(nums []int, left, right int) int {
+    // 随机化基准值
+    r := left + rand.Intn(right-left+1)
+    nums[left], nums[r] = nums[r], nums[left]
+    
+    pivot := nums[left]
+    i, j := left+1, right
+    
+    for {
+        // 从左向右找第一个大于 pivot 的
+        for i <= j && nums[i] < pivot {
+            i++
+        }
+        // 从右向左找第一个小于 pivot 的
+        for i <= j && nums[j] > pivot {
+            j--
+        }
+        if i >= j {
+            break
+        }
+        nums[i], nums[j] = nums[j], nums[i]
+        i++
+        j--
+    }
+    // 将 pivot 换到它最终的位置 j
+    nums[left], nums[j] = nums[j], nums[left]
+    return j
+}
+```
+

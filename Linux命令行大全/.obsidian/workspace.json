@@ -1,0 +1,568 @@
+{
+  "main": {
+    "id": "c3e3ce654c1244f7",
+    "type": "split",
+    "children": [
+      {
+        "id": "91b3ebb878729386",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "106c109c8be283d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4、操作文件和目录.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4、操作文件和目录"
+            }
+          },
+          {
+            "id": "99cbeb7cf67da51d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "11、环境.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "11、环境"
+            }
+          },
+          {
+            "id": "05f19fe2ac2cc1c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "12、vi入门.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "12、vi入门"
+            }
+          },
+          {
+            "id": "b82b346c07054385",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "13、定制提示符.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "13、定制提示符"
+            }
+          },
+          {
+            "id": "952d9f6c72f3aa68",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "15、存储介质.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "15、存储介质"
+            }
+          },
+          {
+            "id": "c9ddc6476957ac49",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "16、联网.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "16、联网"
+            }
+          },
+          {
+            "id": "550457d2f73e5be6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4、操作文件和目录.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4、操作文件和目录"
+            }
+          },
+          {
+            "id": "cb71d36ded33b274",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "18、归档和备份.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "18、归档和备份"
+            }
+          },
+          {
+            "id": "1b2494e7142b4364",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "11、环境.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "11、环境"
+            }
+          },
+          {
+            "id": "1a0ddfe49f3253d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "19、正则表达式.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "19、正则表达式"
+            }
+          },
+          {
+            "id": "9d9b8dd10c455566",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20、文本处理.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "20、文本处理"
+            }
+          },
+          {
+            "id": "a8b60fcfb54eb719",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "21、格式化输出.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "21、格式化输出"
+            }
+          },
+          {
+            "id": "0be5ced7b5aeec7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "22、打印.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "22、打印"
+            }
+          },
+          {
+            "id": "b99b606958bb20e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "23、编译程序.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "23、编译程序"
+            }
+          },
+          {
+            "id": "42d7f59f30f3f106",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "24、编写第一个脚本.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "24、编写第一个脚本"
+            }
+          },
+          {
+            "id": "9e9d5c0e92a3ae1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "25、启动项目.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "25、启动项目"
+            }
+          },
+          {
+            "id": "d18c0f3fc08b9a3d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "7、“Shell眼”看世界.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "7、“Shell眼”看世界"
+            }
+          },
+          {
+            "id": "2767c1c97f54c240",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "27、流程控制：if分支.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "27、流程控制：if分支"
+            }
+          },
+          {
+            "id": "ba1800ecaa5adc56",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "28、读取键盘输入.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "28、读取键盘输入"
+            }
+          },
+          {
+            "id": "a821fbff2ca70811",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "27、流程控制：if分支.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "27、流程控制：if分支"
+            }
+          },
+          {
+            "id": "aa9d45e62f037b89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "30、故障诊断.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "30、故障诊断"
+            }
+          },
+          {
+            "id": "66a7594c19cca15d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "31、流程控制：case分支.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "31、流程控制：case分支"
+            }
+          },
+          {
+            "id": "cf859aba41ed67ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "32、位置参数.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "32、位置参数"
+            }
+          },
+          {
+            "id": "55d682b881a18496",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "12、vi入门.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "12、vi入门"
+            }
+          },
+          {
+            "id": "9d95fbc74b2eef10",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "34、字符串与数字.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "34、字符串与数字"
+            }
+          },
+          {
+            "id": "153992383dee7de1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "35、数组.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "35、数组"
+            }
+          },
+          {
+            "id": "1ce9205277b98610",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "7、“Shell眼”看世界.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "7、“Shell眼”看世界"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "66e206a785acfc40",
+    "type": "split",
+    "children": [
+      {
+        "id": "739f35dcf841bdef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "825a9ad21b00cf5a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "cf215cb77032dca7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "be3c2a512e71c361",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "17a47ef2af52ebd2",
+    "type": "split",
+    "children": [
+      {
+        "id": "73c68b9e8fed8a0e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b3c2c1aac5286a96",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "10、进程.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "10、进程 的反向链接列表"
+            }
+          },
+          {
+            "id": "a0d6e14dc4a30fea",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "10、进程.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "10、进程 的出链列表"
+            }
+          },
+          {
+            "id": "3cc769ec47a46be9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "f344bff492b028a1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "10、进程.md"
+              },
+              "icon": "lucide-list",
+              "title": "10、进程 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "106c109c8be283d1",
+  "lastOpenFiles": [
+    "3、探索Linux系统.md",
+    "2、导航.md",
+    "assert/Pasted image 20240928232224.png",
+    "assert/Pasted image 20240925212831.png",
+    "assert/Pasted image 20240922165355.png",
+    "assert/Pasted image 20240919210846.png",
+    "assert/Pasted image 20240919204324.png",
+    "assert/Pasted image 20240918152813.png",
+    "assert/Pasted image 20240917233412.png",
+    "assert/Pasted image 20240917162430.png",
+    "assert/Pasted image 20240917233326.png",
+    "11、环境.md",
+    "10、进程.md",
+    "7、“Shell眼”看世界.md",
+    "6、重定向.md",
+    "5、和命令打交道.md",
+    "4、操作文件和目录.md",
+    "8、高级键盘技巧.md",
+    "12、vi入门.md",
+    "17、查找文件.md",
+    "13、定制提示符.md",
+    "27、流程控制：if分支.md",
+    "26、自顶向下设计.md",
+    "25、启动项目.md",
+    "24、编写第一个脚本.md",
+    "23、编译程序.md",
+    "22、打印.md",
+    "21、格式化输出.md",
+    "20、文本处理.md",
+    "19、正则表达式.md",
+    "18、归档和备份.md",
+    "16、联网.md",
+    "15、存储介质.md",
+    "9、权限.md",
+    "assert/Pasted image 20241013232759.png",
+    "assert"
+  ]
+}
