@@ -1,3 +1,5 @@
+
+
 ### 包
 
 程序从main包开始运行。
@@ -615,7 +617,7 @@ default:
 
 #### `sync.Mutex`
 
-o 标准库中提供了 [`sync.Mutex`](https://go-zh.org/pkg/sync/#Mutex) 互斥锁类型及其两个方法：
+ 标准库中提供了 [`sync.Mutex`](https://go-zh.org/pkg/sync/#Mutex) 互斥锁类型及其两个方法：
 
 - `Lock`
 - `Unlock`
@@ -646,7 +648,7 @@ func (h *IntHeap) Pop() interface{} {
 	old := *h
 	n := len(old)
 	x := old[n-1]     // 取出最后一个元素
-	*h = old[0 : n-1] // 缩减切片
+	*h = old[: n-1] // 缩减切片
 	return x
 }
 ```
@@ -655,7 +657,7 @@ func (h *IntHeap) Pop() interface{} {
 func main() {
 	h := &IntHeap{2, 1, 5}
     
-	// 1. 初始化堆，先初始化
+	// 1. 初始化堆，将切片中已有的数据转为一个合法堆的数据，如果切片没有数据，不进行init也可以！
 	heap.Init(h)
     
 	// 2. 使用heap包内的Push，传入指针
